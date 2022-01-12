@@ -8,7 +8,7 @@ ASSET_MANAGER.queueDownload("./AmongUs.png")
 ASSET_MANAGER.queueDownload("./paperMario.png")
 
 // music
-ASSET_MANAGER.queueDownload(".Rogueport.mp3");
+//ASSET_MANAGER.queueDownload(".Rogueport.mp3");
 
 ASSET_MANAGER.downloadAll(() => {
 	const canvas = document.getElementById("gameWorld");
